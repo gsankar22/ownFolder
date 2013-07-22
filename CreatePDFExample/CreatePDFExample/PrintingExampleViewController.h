@@ -20,6 +20,7 @@
     NSString* pdfFilePath;
     
     UIImageView*img;
+    UIView*image;
 }
 
 - (IBAction)pdfPressed:(id)sender;
