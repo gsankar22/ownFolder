@@ -18,13 +18,10 @@
 @interface PrintingExampleViewController : UIViewController <MFMailComposeViewControllerDelegate, UIActionSheetDelegate, QLPreviewControllerDataSource>{
     
     NSString* pdfFilePath;
-    
-    UIImageView*img;
 }
 
 - (IBAction)pdfPressed:(id)sender;
 
 @property (nonatomic, retain) NSString* pdfFilePath;
-
 
 @end
