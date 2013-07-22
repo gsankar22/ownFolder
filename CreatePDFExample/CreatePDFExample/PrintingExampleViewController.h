@@ -11,7 +11,12 @@
 #import <QuickLook/QuickLook.h>
 
 
+<<<<<<< HEAD
 ////////////////PDF prints //////////////////
+=======
+////////////////PDF prints /////////////////
+//////My Changes ///////////////
+>>>>>>> 9a1d7729ef1a505af3affc0d8496fe6f7fac884f
 
 @interface PrintingExampleViewController : UIViewController <MFMailComposeViewControllerDelegate, UIActionSheetDelegate, QLPreviewControllerDataSource>{
     
