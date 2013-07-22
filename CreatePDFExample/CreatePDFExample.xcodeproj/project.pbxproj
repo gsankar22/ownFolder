@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C307C5ED1769AA8000446E63 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C307C5EB1769AA8000446E63 /* MainWindow-iPad.xib */; };
+		C3858E36179D37AD00FD3A31 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3858E35179D37AD00FD3A31 /* SystemConfiguration.framework */; };
 		CB1C4B7713A82F29007BF228 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB1C4B6913A82F29007BF228 /* InfoPlist.strings */; };
 		CB1C4B7813A82F29007BF228 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB1C4B6B13A82F29007BF228 /* MainWindow.xib */; };
 		CB1C4B7913A82F29007BF228 /* PrintingExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB1C4B6D13A82F29007BF228 /* PrintingExampleViewController.xib */; };
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		C307C5EC1769AA8000446E63 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "iPad/en.lproj/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		C3858E35179D37AD00FD3A31 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		CB1C4B6A13A82F29007BF228 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CB1C4B6C13A82F29007BF228 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		CB1C4B6E13A82F29007BF228 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PrintingExampleViewController.xib; sourceTree = "<group>"; };
@@ -49,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3858E36179D37AD00FD3A31 /* SystemConfiguration.framework in Frameworks */,
 				CB22A82B13A1BAAD005A5508 /* QuickLook.framework in Frameworks */,
 				CB22A82913A1ADAF005A5508 /* MessageUI.framework in Frameworks */,
 				CB22A80713A17614005A5508 /* UIKit.framework in Frameworks */,
@@ -106,6 +109,7 @@
 		CB22A7F713A17614005A5508 = {
 			isa = PBXGroup;
 			children = (
+				C3858E35179D37AD00FD3A31 /* SystemConfiguration.framework */,
 				CB1C4B6813A82F29007BF228 /* CreatePDFExample */,
 				CB22A80513A17614005A5508 /* Frameworks */,
 				CB22A80313A17614005A5508 /* Products */,
